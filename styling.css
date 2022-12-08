@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins , sans-serif;
+    text-align: center;
+    
+}
+.container{
+    background-image: url(cloud-icon-weather-icon-cloud-symbol-rain-light-azure-background-web-symbol-cloud-icon-weather-icon-cloud-symbol-163651618.jpg);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 100px 200px;
+}
+#heading{
+    color: rgb(46, 63, 12);
+}
+
+.box{
+    font-size: 60px;
+    font-weight: bold;
+}
+input[type="text"]{
+    margin-top: 8px;
+    height: 3rem;
+    width: 270px;
+    border-radius: 1rem;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.button{
+    background-color: #0f0f0f;
+    height: 3.2rem;
+    width: 180px;
+    color: aliceblue;
+    font-size: 15px;
+    outline: none;
+    border-radius: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: aliceblue;
+    color: #0f0f0f;
+    transition: ease-in-out 0.3s;
+}
